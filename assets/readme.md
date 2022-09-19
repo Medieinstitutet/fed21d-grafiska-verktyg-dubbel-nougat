@@ -37,3 +37,18 @@ Sidan har samma utforming som vid desktopläget
 ## Mobil
 
 När bredden blir mindre än 800px så går den över till mobilläget, elementen läggs på varandra i stället för i bredd och menyn ändras till en drop down som finns bifogad i codepen.
+
+<br>
+<br>
+
+## Bilder
+
+"tapeter" - https://midbectapeter.se/wp-content/uploads/blogg_export/atgang-tapetrullar-midbec-tapeter.jpg<br>
+<br>
+"färgburk" - https://www.jula.se/globalassets/catalog/productimages/530064b.jpg?width=458&height=458&scale=both&bgcolor=white<br>
+<br>
+"penselset" - https://i5.walmartimages.com/asr/ca66807e-c82f-47b0-9415-66794a58788a.5367e61d428bfc9a03bf14dbb2437eb8.jpeg<br>
+<br>
+"bild 1" - https://images.unsplash.com/photo-1615529182904-14819c35db37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fA%3D%3D&w=1000&q=80<br>
+<br>
+"bild 2" - https://media.istockphoto.com/photos/scandinavian-farmhouse-living-room-interior-wall-mockup-picture-id1202419927?k=20&m=1202419927&s=612x612&w=0&h=e4c4zBM5KGMkqiaO0g1bWNMv0sUxeXXMWkOymNE0RWs=
