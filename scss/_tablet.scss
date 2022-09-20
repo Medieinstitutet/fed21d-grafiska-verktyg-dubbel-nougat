@@ -53,3 +53,18 @@ header {
     flex-direction: row;
   }
 }
+
+//om oss och kontakta oss
+
+.containerOffers {
+  .offers {
+    flex-direction: row;
+  }
+}
+.containerContact {
+  flex-direction: row;
+}
+
+.contactCardBottom {
+  margin-bottom: 150px;
+}
