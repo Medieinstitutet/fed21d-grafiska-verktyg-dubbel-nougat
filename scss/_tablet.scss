@@ -1,0 +1,23 @@
+.containerPage {
+  width: 100vw;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header {
+  width: 100%;
+}
+
+.containerLogoAndSearch {
+  flex-direction: row;
+
+  align-items: flex-end;
+}
+
+.navMenu {
+  display: block;
+  margin-bottom: 20px;
+}
+.selectMenu {
+  display: none;
+}
