@@ -4,6 +4,21 @@
   padding-right: 15px;
 }
 
+//huvudstyling
+.heading1 {
+  font-size: $font64;
+}
+
+.heading2 {
+  font-size: $font32;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.paragraphText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+//header
 header {
   width: 100%;
 }
@@ -20,4 +35,15 @@ header {
 }
 .selectMenu {
   display: none;
+}
+
+//main content
+.firstPage {
+  .containerFirstPageImages {
+    display: flex;
+  }
+
+  .containerFirstPageText {
+    width: 50%;
+  }
 }

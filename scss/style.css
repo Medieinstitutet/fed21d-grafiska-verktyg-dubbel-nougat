@@ -59,6 +59,38 @@ button {
   cursor: pointer;
 }
 
+.heading1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+
+.heading2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+
+.heading3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.paragraphText {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #000000;
+  font-style: italic;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 header {
   width: 90%;
   display: -webkit-box;
@@ -204,6 +236,93 @@ nav ul li a:hover {
   border-bottom: 2px solid black;
 }
 
+.firstPage {
+  width: 90%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstPage .containerFirstPageImages {
+  display: none;
+  width: 50%;
+  height: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstPage .containerFirstPageText {
+  height: 100%;
+  width: 100%;
+  background-color: #cbbbac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+#image1,
+#image2 {
+  display: none;
+}
+
+.imgFrontPage {
+  width: 240px;
+  height: 240px;
+  border-radius: 120px;
+  animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .containerPage {
     width: 1000px !important;
@@ -215,6 +334,18 @@ nav ul li a:hover {
     width: 100vw;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .heading1 {
+    font-size: 4rem;
+  }
+  .heading2 {
+    font-size: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .paragraphText {
+    margin-left: 10px;
+    margin-right: 10px;
   }
   header {
     width: 100%;
@@ -234,6 +365,14 @@ nav ul li a:hover {
   }
   .selectMenu {
     display: none;
+  }
+  .firstPage .containerFirstPageImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .firstPage .containerFirstPageText {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=style.css.map */
