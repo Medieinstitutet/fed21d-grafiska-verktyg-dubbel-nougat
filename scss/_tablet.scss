@@ -4,6 +4,20 @@
   padding-right: 15px;
 }
 
+//cookiesbanner
+.asideBanner {
+  flex-direction: row;
+  height: 100px;
+  font-size: $font18;
+}
+
+.cookiesText {
+  width: 60%;
+  font-family: $font;
+  font-weight: 300;
+  font-size: $font14;
+}
+
 //huvudstyling
 .heading1 {
   font-size: $font64;

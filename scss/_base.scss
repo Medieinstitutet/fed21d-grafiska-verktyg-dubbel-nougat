@@ -15,6 +15,29 @@ body {
   align-items: center;
 }
 
+//cookies
+.asideBanner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: $color5;
+  border: 2px solid $colorBlack;
+  height: 170px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cookiesText {
+  width: 80%;
+  font-family: $font;
+  font-weight: 300;
+  font-size: $font14;
+}
+
+//main page
+
 .containerPage {
   width: 100vw;
   background-color: $color3;

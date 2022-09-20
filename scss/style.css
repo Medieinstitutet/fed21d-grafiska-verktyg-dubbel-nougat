@@ -25,6 +25,35 @@ body {
           align-items: center;
 }
 
+.asideBanner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #cbbbac;
+  border: 2px solid #000000;
+  height: 170px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cookiesText {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
 .containerPage {
   width: 100vw;
   background-color: #d9d3ce;
@@ -522,6 +551,20 @@ nav ul li a:hover {
     width: 100vw;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .asideBanner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100px;
+    font-size: 1.125rem;
+  }
+  .cookiesText {
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
   }
   .heading1 {
     font-size: 4rem;
