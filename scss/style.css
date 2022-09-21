@@ -5,6 +5,21 @@
           box-sizing: border-box;
 }
 
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 body {
   position: relative;
   left: 0;
@@ -186,12 +201,9 @@ header {
   border-bottom: 1px solid #000000;
 }
 
-.containerLogoAndSearch .logo {
-  margin-top: 20px;
-  height: 100px;
-  width: 250px;
-  background: url("/assets/svg/FarghusetLogo.svg");
-  background-repeat: no-repeat;
+#logo {
+  position: absolute;
+  top: -20;
 }
 
 label {
@@ -462,21 +474,21 @@ nav ul li a:hover {
   padding-bottom: 3px;
 }
 
-.containerOffers .offers .offerColor .colorBox1 {
+.containerOffers .offers .offerColor .colorMasala {
   height: 100px;
   width: 100px;
   background-color: #c79f6e;
   cursor: pointer;
 }
 
-.containerOffers .offers .offerColor .colorBox2 {
+.containerOffers .offers .offerColor .colorVelvet {
   height: 100px;
   width: 100px;
   background-color: #d6bd90;
   cursor: pointer;
 }
 
-.containerOffers .offers .offerColor .colorBox3 {
+.containerOffers .offers .offerColor .colorLavenderTouch {
   height: 100px;
   width: 100px;
   background-color: #bbb2ac;
@@ -546,6 +558,7 @@ nav ul li a:hover {
 }
 
 .contactCardBottom {
+  padding-bottom: 30px;
   margin-bottom: 250px;
 }
 

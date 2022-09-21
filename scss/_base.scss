@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+//tillgänglighet för SVG h1:an.
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 body {
   position: relative;
   left: 0;
@@ -126,13 +141,6 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid $colorBlack;
-  .logo {
-    margin-top: 20px;
-    height: 100px;
-    width: 250px;
-    background: url("/assets/svg/FarghusetLogo.svg");
-    background-repeat: no-repeat;
-  }
 }
 
 label {
@@ -341,21 +349,21 @@ nav {
       align-items: center;
       padding-bottom: 3px;
 
-      .colorBox1 {
+      .colorMasala {
         height: 100px;
         width: 100px;
         background-color: #c79f6e;
         cursor: pointer;
       }
 
-      .colorBox2 {
+      .colorVelvet {
         height: 100px;
         width: 100px;
         background-color: #d6bd90;
         cursor: pointer;
       }
 
-      .colorBox3 {
+      .colorLavenderTouch {
         height: 100px;
         width: 100px;
         background-color: #bbb2ac;
@@ -406,5 +414,6 @@ nav {
 }
 
 .contactCardBottom {
+  padding-bottom: 30px;
   margin-bottom: 250px;
 }
