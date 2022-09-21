@@ -11,7 +11,7 @@ function animationImage() {
   setTimeout(() => {
     image2.style.display = "block";
     image2.className = "imgFrontPage";
-  }, 2000);
+  }, 1000);
 }
 
 //cookiesbanner försvinner vid knapptryck
