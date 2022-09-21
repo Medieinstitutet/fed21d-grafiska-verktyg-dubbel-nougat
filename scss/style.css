@@ -55,7 +55,8 @@ body {
 }
 
 .containerPage {
-  width: 100vw;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   background-color: #d9d3ce;
   min-height: 100vh;
   max-height: -webkit-fit-content;
@@ -283,7 +284,7 @@ nav ul li {
 }
 
 nav ul li a:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000000;
 }
 
 .firstPage {
@@ -465,18 +466,21 @@ nav ul li a:hover {
   height: 100px;
   width: 100px;
   background-color: #c79f6e;
+  cursor: pointer;
 }
 
 .containerOffers .offers .offerColor .colorBox2 {
   height: 100px;
   width: 100px;
   background-color: #d6bd90;
+  cursor: pointer;
 }
 
 .containerOffers .offers .offerColor .colorBox3 {
   height: 100px;
   width: 100px;
   background-color: #bbb2ac;
+  cursor: pointer;
 }
 
 .containerContact {
@@ -521,11 +525,16 @@ nav ul li a:hover {
           align-items: center;
 }
 
-.phoneCard,
-.emailCard {
+.containerContact .contactCard aside .phoneCard,
+.containerContact .contactCard aside .emailCard {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.containerContact .contactCard aside .phoneCard:hover,
+.containerContact .contactCard aside .emailCard:hover {
+  border-bottom: 2px solid #000000;
 }
 
 .paragraphCard {
@@ -542,13 +551,14 @@ nav ul li a:hover {
 
 @media screen and (min-width: 1024px) {
   .containerPage {
-    width: 1000px !important;
+    width: 1000px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .containerPage {
-    width: 100vw;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }

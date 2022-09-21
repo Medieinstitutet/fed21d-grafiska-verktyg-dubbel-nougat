@@ -39,7 +39,7 @@ body {
 //main page
 
 .containerPage {
-  width: 100%;
+  flex-basis: 100%;
   background-color: $color3;
   min-height: 100vh;
   max-height: fit-content;
@@ -197,7 +197,7 @@ nav {
       cursor: pointer;
       a {
         &:hover {
-          border-bottom: 2px solid black;
+          border-bottom: 2px solid $colorBlack;
         }
       }
     }
@@ -345,18 +345,21 @@ nav {
         height: 100px;
         width: 100px;
         background-color: #c79f6e;
+        cursor: pointer;
       }
 
       .colorBox2 {
         height: 100px;
         width: 100px;
         background-color: #d6bd90;
+        cursor: pointer;
       }
 
       .colorBox3 {
         height: 100px;
         width: 100px;
         background-color: #bbb2ac;
+        cursor: pointer;
       }
     }
   }
@@ -380,15 +383,18 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    aside {
+      .phoneCard,
+      .emailCard {
+        color: $colorBlack;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          border-bottom: 2px solid $colorBlack;
+        }
+      }
+    }
   }
-}
-
-.phoneCard,
-.emailCard {
-  color: $colorBlack;
-  text-decoration: none;
-
-  cursor: pointer;
 }
 
 .paragraphCard {
