@@ -23,7 +23,7 @@ function removeCookiesBanner() {
   asideBanner.style.display = "none";
 }
 
-//animation
+//animation logo
 let customEaseIMade = CustomEase.create(
   "custom",
   "M0,0,C0.063,0.191,0.076,0.216,0.142,0.31,0.206,0.403,0.194,0.408,0.282,0.44,0.366,0.47,0.434,0.279,0.51,0.18,0.56,0.114,0.57,0.059,0.652,-0.016,0.688,-0.05,0.792,0.147,0.84,0.162,0.912,0.184,0.992,0.043,1,0"
