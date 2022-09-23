@@ -212,7 +212,7 @@ label:before {
   top: 27px;
   bottom: 0;
   width: 20px;
-  background-image: url("/assets/svg/searchIcon.svg");
+  background-image: url("../assets/svg/searchIcon.svg");
   background-repeat: no-repeat;
 }
 
