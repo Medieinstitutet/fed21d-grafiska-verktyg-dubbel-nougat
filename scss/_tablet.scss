@@ -77,6 +77,10 @@ header {
 }
 .containerContact {
   flex-direction: row;
+  align-items: start;
+  .contactCard {
+    margin-top: 0;
+  }
 }
 
 .contactCardBottom {

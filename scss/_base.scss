@@ -330,14 +330,19 @@ nav {
     .offer {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
       margin-right: 5px;
       margin-left: 5px;
+      margin-bottom: 20px;
       cursor: pointer;
       .imgOffer {
         width: 150px;
         height: 150px;
+      }
+      .offerHeading {
+        margin: 0;
+        padding: 0;
       }
     }
     .offerColor {
@@ -350,11 +355,13 @@ nav {
       justify-content: flex-end;
       align-items: center;
       padding-bottom: 3px;
+      margin-bottom: 20px;
 
       .colorMasala {
         height: 100px;
         width: 100px;
         background-color: #c79f6e;
+        margin-bottom: 5px;
         cursor: pointer;
       }
 
@@ -362,6 +369,7 @@ nav {
         height: 100px;
         width: 100px;
         background-color: #d6bd90;
+        margin-bottom: 5px;
         cursor: pointer;
       }
 
@@ -369,6 +377,7 @@ nav {
         height: 100px;
         width: 100px;
         background-color: #bbb2ac;
+        margin-bottom: 5px;
         cursor: pointer;
       }
     }
@@ -380,7 +389,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   .contact {
@@ -393,6 +402,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     aside {
       .phoneCard,
       .emailCard {
