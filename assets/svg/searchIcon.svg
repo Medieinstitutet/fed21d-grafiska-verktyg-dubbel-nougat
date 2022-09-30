@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="magnifying_glass_icon" data-name="magnifying glass icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d9d9d9;
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #d9d9d9;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-2" cx="8.41" cy="8.47" rx="7.41" ry="7.47"/>
+  <line class="cls-1" x1="13.8" y1="13.95" x2="21" y2="21"/>
+</svg>

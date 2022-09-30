@@ -1,0 +1,88 @@
+.containerPage {
+  flex-basis: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+//cookiesbanner
+.asideBanner {
+  flex-direction: row;
+  height: 100px;
+  font-size: $font18;
+}
+
+.cookiesText {
+  width: 60%;
+  font-family: $font;
+  font-weight: 300;
+  font-size: $font14;
+}
+
+//huvudstyling
+.heading1 {
+  font-size: $font64;
+}
+
+.heading2 {
+  font-size: $font32;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.paragraphText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+//header
+header {
+  width: 100%;
+}
+
+.containerLogoAndSearch {
+  flex-direction: row;
+
+  align-items: flex-end;
+}
+
+.navMenu {
+  display: block;
+  margin-bottom: 20px;
+}
+.selectMenu {
+  display: none;
+}
+
+//main content
+.firstPage {
+  .containerFirstPageImages {
+    display: flex;
+  }
+
+  .containerFirstPageText {
+    width: 50%;
+  }
+}
+//erbjudande
+.containerOffers {
+  .offers {
+    flex-direction: row;
+  }
+}
+
+//om oss och kontakta oss
+
+.containerOffers {
+  .offers {
+    flex-direction: row;
+  }
+}
+.containerContact {
+  flex-direction: row;
+  align-items: start;
+  .contactCard {
+    margin-top: 0;
+  }
+}
+
+.contactCardBottom {
+  margin-bottom: 150px;
+}
