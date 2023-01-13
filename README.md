@@ -18,8 +18,8 @@ Den valda fonten ska representera en butik med koll på design och är i det lit
 Designen för knappar ock fält har ett rundat utseende med lite skugga för att bryta av det annars strikta och skarpa texter och kortelement.
 <br>
 <br>
-Se länk till Figma för design: https://www.figma.com/file/PzhDBrdWk9wGnjbc3ycGVY/Färghuset?node-id=0%3A1
-
+Se länk till Figma för design av Joel Hägg: https://www.figma.com/file/PzhDBrdWk9wGnjbc3ycGVY/Färghuset?node-id=0%3A1
+Se länk till deploy, kodning av Cornelia harder: https://medieinstitutet.github.io/fed21d-grafiska-verktyg-dubbel-nougat/
 <br>
 
 #
